@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #header {
   background: rgba(21, 5, 23, 0.25);
-  transition: all 0.5s;
+  transition: all 0.4s;
   z-index: 997;
   position: relative;
   height: 70px;
@@ -125,19 +125,16 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
 }
 #header .logo {
-  font-size: 30px;
   margin: 0;
   padding: 0;
   line-height: 1;
-  font-weight: 500;
-  letter-spacing: 0.5px;
   text-transform: uppercase;
 }
 #header .logo a {
   color: #fff;
 }
 #header .logo img {
-  max-height: 40px;
+  max-height: 45px;
 }
 
 .scrolled-offset {
@@ -182,8 +179,21 @@ h1, h2, h3, h4, h5, h6 {
 * Desktop Navigation 
 */
 .navbar {
-  padding: 0;
+  padding-right: 10%;
 }
+/*
+@media (max-width: 991px){
+  .navbar{
+    padding-right: 0%;
+  } 
+}
+
+@media (min-width: 1879px){
+  .navbar{
+    padding-right: 24%;
+  } 
+}*/
+
 .navbar ul {
   margin: 0;
   padding: 0;
@@ -518,6 +528,10 @@ section {
 .about .content ul li {
   padding-left: 28px;
   position: relative;
+  text-align: justify;
+}
+.about .content p {
+  text-align: justify;
 }
 .about .content ul li + li {
   margin-top: 10px;
