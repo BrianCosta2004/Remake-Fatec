@@ -1,6 +1,2 @@
-Thanks for downloading this template!
-
-Template Name: Valera
-Template URL: https://bootstrapmade.com/valera-free-bootstrap-theme/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+#Rework-Fatec
+Trabalho de reconstrução do site da Fatec Campinas - https://www.fateccampinas.com.br/site/
