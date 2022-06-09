@@ -587,10 +587,10 @@ section {
 }
 
 .about .content p {
-  font-weight: 500;
-  font-size: 22px;
+  font-weight: 400;
+  font-size: 17px;
   text-align: justify;
-  color: rgb(136, 135, 135);
+  color: rgb(107, 106, 106);
 }
 .about .content ul {
   list-style: none;
